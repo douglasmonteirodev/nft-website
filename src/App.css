@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #14141f;
+  background: #14141f !important;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,7 +28,6 @@ p {
 
 a {
   text-decoration: none;
-  color: unset;
 }
 
 a:hover {

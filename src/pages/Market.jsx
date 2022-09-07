@@ -1,6 +1,6 @@
 import React from "react";
 
-const Mrket = () => {
+const Market = () => {
   return <div>MArket</div>;
 };
 
