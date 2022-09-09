@@ -6,7 +6,7 @@ import NftCard from "../Nft-card/NftCard";
 
 import "./trending.css";
 
-const TrendingSection = () => {
+const Trending = () => {
   return (
     <section>
       <Container>
@@ -26,4 +26,4 @@ const TrendingSection = () => {
   );
 };
 
-export default TrendingSection;
+export default Trending;
