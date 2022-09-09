@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import "./header.css";
 
 import { Container } from "reactstrap";
@@ -24,8 +24,22 @@ const NAV__LINKS = [
 ];
 
 const Header = () => {
+  const [headerShrink, setHeaderShrink] = useState(false);
+
+  useEffect(() => {
+    const scrollListener = () => {
+      window.scrollY > 80 ? setHeaderShrink(true) : setHeaderShrink(false);
+    };
+
+    window.addEventListener("scroll", scrollListener);
+
+    return () => {
+      window.removeEventListener("scroll", scrollListener);
+    };
+  }, []);
+
   return (
-    <header className='header'>
+    <header className={headerShrink ? "header header__shrink" : "header"}>
       <Container>
         <div className='navigation'>
           <div className='logo'>

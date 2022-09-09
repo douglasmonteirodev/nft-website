@@ -129,22 +129,22 @@ const Footer = () => {
               </span>
               <span>
                 <Link to='#'>
-                  <i class='ri-instagram-line'></i>
+                  <i className='ri-instagram-line'></i>
                 </Link>
               </span>
               <span>
                 <Link to='#'>
-                  <i class='ri-twitter-line'></i>
+                  <i className='ri-twitter-line'></i>
                 </Link>
               </span>
               <span>
                 <Link to='#'>
-                  <i class='ri-telegram-line'></i>
+                  <i className='ri-telegram-line'></i>
                 </Link>
               </span>
               <span>
                 <Link to='#'>
-                  <i class='ri-discord-line'></i>
+                  <i className='ri-discord-line'></i>
                 </Link>
               </span>
             </div>

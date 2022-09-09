@@ -8,6 +8,12 @@
   z-index: 11111111;
 }
 
+.header__shrink {
+  background: #14141f;
+  box-shadow: 2px 2px 4px -2px #e250e5;
+  transition: all ease 0.3s;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -33,12 +39,13 @@
   color: #e250e5 !important;
 }
 
-.logo {
+.logo h2 {
   background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
   background-size: 100% 100%;
   background-clip: text;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
+  margin-bottom: 0;
 }
 
 .nav__right .btn {
