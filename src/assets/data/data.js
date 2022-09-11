@@ -181,7 +181,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "01",
+    id: "07",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava01,
@@ -192,7 +192,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "02",
+    id: "08",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Trista Francis",
     sellerImg: ava02,
@@ -203,7 +203,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "03",
+    id: "09",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava03,
@@ -214,7 +214,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "04",
+    id: "10",
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
@@ -227,7 +227,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "05",
+    id: "11",
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
@@ -240,7 +240,7 @@ export const SELLER__DATA = [
   },
 
   {
-    id: "06",
+    id: "12",
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 

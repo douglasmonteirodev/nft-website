@@ -3,6 +3,7 @@ import "./header.css";
 
 import { Container } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
+import { useRef } from "react";
 
 const NAV__LINKS = [
   {
@@ -26,6 +27,8 @@ const NAV__LINKS = [
 const Header = () => {
   const [headerShrink, setHeaderShrink] = useState(false);
 
+  const menuRef = useRef(null);
+
   useEffect(() => {
     const scrollListener = () => {
       window.scrollY > 80 ? setHeaderShrink(true) : setHeaderShrink(false);
@@ -37,6 +40,10 @@ const Header = () => {
       window.removeEventListener("scroll", scrollListener);
     };
   }, []);
+
+  const toggleMenu = () => {
+    menuRef.current.classList.toggle("active__menu");
+  };
 
   return (
     <header className={headerShrink ? "header header__shrink" : "header"}>
@@ -51,10 +58,10 @@ const Header = () => {
             </h2>
           </div>
 
-          <div className='nav__menu'>
-            <div className='nav__list'>
+          <div className='nav__menu' ref={menuRef} onClick={toggleMenu}>
+            <ul className='nav__list'>
               {NAV__LINKS.map((item, index) => (
-                <li className='nav__list' key={index}>
+                <li className='nav__item' key={index}>
                   <NavLink
                     to={item.url}
                     className={(navClass) =>
@@ -65,7 +72,7 @@ const Header = () => {
                   </NavLink>
                 </li>
               ))}
-            </div>
+            </ul>
           </div>
 
           <div className='nav__right d-flex align-items-center gap-5'>
@@ -77,7 +84,7 @@ const Header = () => {
             </button>
 
             <span className='mobile__menu'>
-              <i className='ri-menu-line'></i>
+              <i className='ri-menu-line' onClick={toggleMenu}></i>
             </span>
           </div>
         </div>
