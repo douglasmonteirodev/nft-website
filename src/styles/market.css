@@ -1,0 +1,10 @@
+.all__cetegory__filter select,
+.all__items__filter select,
+.filter__right select {
+  padding: 8px 25px;
+  font-size: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background: #343444;
+}

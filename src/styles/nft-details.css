@@ -1,0 +1,24 @@
+.single__nft-img {
+  border-radius: 8px;
+}
+
+.single__nft-seen span i {
+  color: #fff;
+  padding: 5px;
+  background: #000;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.single__nft-seen span,
+.single__nft-more span {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.single__nft-more span i {
+  background: #343444;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+}

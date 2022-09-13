@@ -22,7 +22,7 @@ const Routers = () => {
       <Route path='/edit-profile' element={<EditProfile />} />
       <Route path='/seller-profile' element={<SellerProfile />} />
       <Route path='/wallet' element={<Wallet />} />
-      <Route path='/nft-details' element={<NftDetails />} />
+      <Route path='/market/:id' element={<NftDetails />} />
     </Routes>
   );
 };
