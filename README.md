@@ -2,7 +2,7 @@
 
 ## <i>Projeto feito com React JS </i>
 
-## Link: https://bit.ly/3QUGAdk
+## Link: https://douglasmonteirodev.github.io/builds/nft-website/
 
 <p align="center">
       <img src="src/assets/preview/home_preview.png">
