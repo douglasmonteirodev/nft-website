@@ -1,8 +1,6 @@
 # NFT WEBSITE
 
-## <i>Projeto feito com React JS </i>
-
-## Link: https://douglasmonteirodev.github.io/builds/nft-website/
+[![Blog](https://img.shields.io/website?label=deploy&style=for-the-badge&url=https://nft-website-1eno.vercel.app/)](https://nft-website-1eno.vercel.app/)
 
 <p align="center">
       <img src="src/assets/preview/home_preview.png">
